@@ -1,0 +1,31 @@
+article
+{
+background-color: #f2f4c0;
+width: 700px;
+border: 1px solid #b2ad7d;
+padding: 10px;
+margin: 10px;
+}
+p
+{
+
+width: 700px;
+padding: 5px;
+}
+section
+{
+    font-style: italic;
+    color: #5c6e91;
+    width: 700px;
+   
+}
+main
+{
+  background-color: #e4e978;
+  padding: 15px;
+  width: 750px;
+}
+.Header-Comments
+{
+    size: 60px;
+}
