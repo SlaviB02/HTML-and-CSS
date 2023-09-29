@@ -1,0 +1,30 @@
+.viewport
+{
+height: 100vh;
+position: relative;
+}
+.viewport:nth-child(1)
+{
+    background-color: cyan;
+}
+.viewport:nth-child(2)
+{
+    background-color: magenta;
+}
+.card
+{
+    width: 20em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 0.3em;
+    overflow: hidden;
+}
+.card img
+{
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 1em 0.2em rgb(0,0,0,0.2)
+}
