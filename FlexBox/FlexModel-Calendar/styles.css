@@ -1,0 +1,46 @@
+html
+{
+    box-sizing: border-box;
+}
+*,*::after,*::before
+{
+    box-sizing: inherit;
+}
+div,section
+{
+    display: flex;
+   justify-content: center;
+}
+span
+{
+    border: 1px solid black;
+    text-align: center;
+    height: 12vh;
+    padding-top: 1em;
+}
+div
+{
+    max-width: 65vw;
+    padding: 1em;
+}
+.week span:nth-child(1), .week span:nth-last-child(3)
+{
+flex-basis: 100%;
+}
+.week
+{
+    flex-wrap: wrap;
+}
+.week span
+{
+    flex-grow: 1;
+}
+.notes
+{
+    flex-direction: column;
+    width: 10vw;
+}
+.notes span
+{
+    flex-grow: 1;
+}

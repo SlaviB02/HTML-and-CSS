@@ -1,0 +1,70 @@
+
+html
+{
+    font: 20px Helvetica, sans-serif;
+}
+div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 15vw;
+    height: 35rem;
+flex-wrap: wrap;
+gap: 1em;
+}
+span
+{
+    border: 1px solid black;
+    text-align: center;
+    padding: 1em;
+    width: 20%;
+}
+.boxS
+{
+    order: 1;
+}
+.boxe
+{
+    order: 2;
+}
+.boxm
+{
+    order:3;
+}
+.boxa
+{
+    order:4;
+}
+.boxn
+{
+    order: 5;
+}
+.boxt
+{
+    order:6;
+}
+.boxi
+{
+    order:7;
+}
+.boxc
+{
+    order: 8;
+}
+.boxH
+{
+    order: 9;
+}
+.boxT
+{
+    order: 10;
+}
+.boxM
+{
+    order: 11;
+}
+.boxL
+{
+    order: 12;
+}
