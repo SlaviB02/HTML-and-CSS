@@ -1,0 +1,43 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #DDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.box
+{
+    display: flex;
+}
+.box ul
+{
+    display: flex;
+    list-style: none;
+    gap:1em;
+}
+.box li
+{
+    display: block;
+    width: 10em;
+    height: 25em;
+    overflow: hidden;
+    border-radius: 0.5em;
+    box-shadow:0 0 1em 0.5em rgba(0,0,0,0.2);
+}
+.box img
+{
+    display: block;
+    width: auto;
+    height: 100%;
+}
+.box li.open
+{
+    width: 30em;
+}
