@@ -1,0 +1,76 @@
+header
+{
+    border-bottom: 2px solid black;
+}
+body
+{
+    background-color: rgb(238,238,238);
+    padding: 2em;
+    line-height: 1.5;
+}
+img
+{
+    padding: 1em;
+    border: 2px solid black;
+    background-color: rgb(255,255,255);
+  
+}
+section
+{
+    padding-bottom: 2em;
+}
+.img1
+{
+float: right;
+margin-left: 1em;
+}
+.img2
+{
+    float:left;
+    margin-right: 1em;
+}
+a
+{
+    color:rgb(0,153,0);
+    text-decoration: none;
+    font-weight: 500;
+}
+h1,h2,h3,blockquote
+{
+    font-family: Georgia,serif;
+}
+aside
+{
+   flex-basis: 150%;
+}
+h1
+{
+    font-size: 3em;
+}
+.page
+{
+    display: flex;
+    gap: 2em;
+}
+blockquote
+{
+    color: gray;
+    border-left: 1px solid gray;
+    padding-left: 1em;
+}
+.blockquote
+{
+    display: flex;
+}
+.blockquote p
+{
+flex-basis: 60%;
+}
+.blockquote blockquote
+{
+   flex-basis: 40%;
+}
+.name
+{
+    text-align: right;
+}

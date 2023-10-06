@@ -1,0 +1,24 @@
+header
+{
+    border-bottom: 2px solid rgb(0,0,0);
+    display: flex;
+    justify-content: space-between;
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    gap: 2em;
+    padding-right: 3em;
+    padding-top: 2em;
+}
+
+a
+{
+    color:rgb(0,153,0);
+    text-decoration: none;
+}
+h1
+{
+    font-size: 3em;
+}
