@@ -1,0 +1,83 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #CCC;
+    display: flex;
+    padding: 2em;
+    gap: 2em;
+    justify-content: center;
+}
+img
+{
+    width: 250px;
+    height: 250px;
+    display: block;
+}
+h4
+{
+color:#404040;
+padding-bottom: 0.5em;
+}
+h2
+{
+    font-weight:lighter;
+    padding-bottom: 1em;
+    font-family: sans-serif;
+}
+section p
+{
+    color: #606060;
+}
+footer img
+{
+    position: relative;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+    object-fit: cover;
+    right: 5%;
+}
+.card
+{
+    box-shadow: 0 0 0.5em 0.5em rgba(0,0,0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 23%;
+    height: 57vh;
+}
+footer .name
+{
+  position: relative;
+  left: 10%;
+  bottom: 40%;
+  color:#383838;
+}
+footer .text
+{
+    position: relative;
+   left:80%;
+   bottom: 60%;
+   color: #606060;
+}
+.card img
+{
+    flex-basis: 100%;
+}
+.card section
+{
+    height: 17vh;
+    padding: 1em;
+    margin: 1em;
+}
+.card footer
+{  
+    border-top: 2px solid gray;
+    flex-basis: 100%;
+    margin: 1em;
+    padding: 1em;
+}
