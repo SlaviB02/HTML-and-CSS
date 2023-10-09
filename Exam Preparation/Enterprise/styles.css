@@ -1,83 +1,176 @@
-*
-{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+@import url("/fontawesome/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Sans&display=swap');
+
 body
 {
-    background-color: #CCC;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+width: 90vw;
+margin: 0 auto;
+font-family: 'PT Sans', sans-serif;
+}
+main
+{
     display: flex;
-    padding: 2em;
-    gap: 2em;
+    flex-direction: column;
+}
+*,*::after,*::before
+{
+    box-sizing: inherit;
+}
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+    color: white;
+  height: 5vh;
+  padding: 1em 2em;
+  flex-basis: 100%;
+}
+header div
+{
+    display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 0.5em;
 }
-img
+header ul
 {
-    width: 250px;
-    height: 250px;
-    display: block;
+    list-style:none;
+    display: flex;
+    gap: 0.5em;
 }
-h4
+.PainGain
 {
-color:#404040;
-padding-bottom: 0.5em;
+    background-image: url(image/fitness-main.jpg);
+    background-position-y: -20em;
+    height: 60vh;
 }
-h2
+.PainGain nav
 {
-    font-weight:lighter;
-    padding-bottom: 1em;
-    font-family: sans-serif;
+   justify-content: flex-end;
+   padding: 2em;
+   display: flex;
+   gap: 3em;
 }
-section p
+nav a
 {
-    color: #606060;
+    color: white;
+    text-decoration: none;
 }
-footer img
+li a:visited
 {
-    position: relative;
-width: 50px;
-height: 50px;
-border-radius: 50%;
-    object-fit: cover;
-    right: 5%;
+ color: white;
+}
+.PainGain div
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    gap: 1em;
+}
+.PainGain h1
+{
+    color: white;
+    font-size: 3em;
+    letter-spacing: 10px;
+}
+.PainGain p
+{
+    color: white;
+    margin-bottom: 2em;
+    text-align: center;
+}
+.PainGain button
+{
+    background-color: red;
+    color: white;
+    font-size:1em;
+    padding: 0.5em 1.5em;
+    border-radius: 5px;
 }
 .card
 {
-    box-shadow: 0 0 0.5em 0.5em rgba(0,0,0,0.1);
     display: flex;
-    flex-wrap: wrap;
-    max-width: 23%;
-    height: 57vh;
+    flex-direction: column;
+    align-items: center;
 }
-footer .name
+.card p
 {
-  position: relative;
-  left: 10%;
-  bottom: 40%;
-  color:#383838;
+    text-align: center;
 }
-footer .text
+.Welcome-cards
 {
-    position: relative;
-   left:80%;
-   bottom: 60%;
-   color: #606060;
+    display: flex;
+    justify-content: space-around;
+    height: 40vh;
 }
-.card img
+.Welcome .card
 {
-    flex-basis: 100%;
+    width: 350px;
+    padding: 0 1em;
 }
-.card section
+.card h4
 {
-    height: 17vh;
-    padding: 1em;
-    margin: 1em;
+   color: red;
 }
-.card footer
-{  
-    border-top: 2px solid gray;
-    flex-basis: 100%;
-    margin: 1em;
-    padding: 1em;
+.Welcome h2
+{
+    text-align: center;
+    margin-bottom: 3em;
+    margin-top: 1em;
 }
+.Welcome img
+{
+ width: 50px;
+ height: 50px;
+ object-fit: cover;
+}
+.Coaches
+{
+    background-color: #F0F0F0;
+}
+.Coaches-cards
+{
+    display: flex;
+    justify-content: space-around;
+height: 45vh;
+}
+
+.Coachcard 
+{
+    width: 300px;
+    text-align: center;
+}
+.Coaches h2
+{
+    text-align: center;
+    margin-bottom: 2em;
+}
+.Coachcard h4
+{
+    color: red;
+}
+.Coachcard img
+{
+    border-radius: 5px;
+    box-shadow: 0 0 0.2em 1em rgba(0,0,0,0.4em);
+}
+.Coachcard p
+{
+    color: #A0A0A0;
+}
+footer
+{
+   display: flex;
+    background-color: red;
+    color: black;
+    justify-content: center;
+    height: 5vh;
+}
+
+
