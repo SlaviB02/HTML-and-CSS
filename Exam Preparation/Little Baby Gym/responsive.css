@@ -1,0 +1,78 @@
+@media (max-width:600px)
+{
+    header nav{
+ visibility: hidden;
+    }
+    .site-main {
+        margin: 0;
+    }
+    .entry-header
+    {
+        background-position: 53%;
+        background-size: auto;
+    }
+    .button-primary{
+        width: 25%;
+    }
+    .site-logos-container{
+       display: flex;
+       flex-wrap: wrap;
+       min-width: 400px;
+       justify-content: center;
+    }
+    .site-information-image
+    {
+        background-image: none;
+        background-size: none;
+        flex-basis: 0;
+    }
+    .site-information{
+        justify-content: center;
+        text-align: center;
+    }
+    .site-information-text p{
+        display: inline-block;
+        align-items: center;
+        min-width: 350px;
+    }
+    .site-form .entry-title
+    {
+        font-size: 10px;
+    }
+    .site-form-container p{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #first-name,#last-name{
+        min-width: 400px;
+    }
+    
+    .site-form button
+    {
+        margin: 0 auto;
+    }
+    .site-form{
+        margin-top: 0;
+    }
+    .site-posts{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .site-blog-container{
+        margin-top: 0;
+    }
+    .site-post
+    {
+        min-width: 350px;
+    }
+    .site-blog-container .entry-title{
+        font-size: 4em;
+    }
+    .site-footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
