@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=PT+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css');
+html
+{
+    font-family: 'Inter';
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1900px;
+}
+.site-header{
+    background-color: #ade2df;
+}
+header nav ul a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul
+{
+    list-style-type:none;
+    display: flex;
+    padding: 1em;
+    gap: 2em;
+}
+header nav:first-child
+{
+    padding-left: 5em;
+}
+header nav:last-child
+{
+    padding-right: 6em;
+}
+header nav ul li{
+    padding: 0.5em 1em;
+}
+header nav:last-child ul li:last-child
+{
+    background-color:#ade2df;
+    border-radius: 10px;
+}
+header{
+        display: flex;
+    justify-content: space-between;
+}
+.site-header .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+}
+.site-header .container h1
+{
+    font-size: 3em;
+    letter-spacing: 8px;
+    padding-top: 1em;
+}
+.download-section a
+{
+background-color: black;
+color: white;
+padding: 1em 2em;
+margin:0 0.5em;
+border-radius: 10px;
+text-decoration: none;
+}
+.download-section 
+{
+    margin: 4em 0;
+}
+.download-section a i
+{
+    margin-right: 0.5em;
+}
+.numbers .container
+{
+    display: flex;
+    justify-content: center;
+}
+.card:nth-child(2n+1)
+{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.card{
+    text-align: center;
+    padding: 1em;
+    margin:6em 0;
+    flex-basis: 25%;
+}
+.card h2
+{
+    margin-bottom: 1em;
+    font-size: 2em;
+}
+.card p{
+    margin-bottom: 2em;
+    font-size: 1.2em;
+}
+.picture-section .container
+{
+    background-color:#ade2df ;
+    display: flex;
+    justify-content: center;
+    gap: 6em;
+}
+.container .text{
+    margin: 2em 0;
+    flex-basis: 30%;
+}
+.text h2
+{
+    font-size: 3em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+    margin-top: 2em;
+}
+.text p
+{
+    line-height: 1.5em;
+    margin-bottom: 1.5em ;
+    margin-top: 0.5em;
+}
+
+.text a i{
+    margin-left: 1em;
+}
+.text a
+{
+    text-decoration: none;
+    padding: 0.3em;
+    border-bottom: 1px solid gray;
+    color: black;
+    margin-top: 2em;
+}
+.picture-section img
+{
+    border:1px solid gray;
+    border-style: dashed;
+    padding: 0 2em;
+}
+.section-plans
+{
+    background-color: #f3f5fa;
+   padding-bottom: 4em;
+}
+
+.title
+{
+    text-align: center;
+    padding: 2em;
+    margin-bottom: 4em;
+}
+.title h2
+{
+    margin-top: 2em;
+    font-size: 2em;
+}
+.title a
+{
+    text-decoration: none;
+    padding: 0.5em 1em;
+    background-color: #ade2df;
+    color: black;
+    border-radius: 10px;
+}
+.plans{
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+.plan
+{
+    padding: 1em;
+    flex-basis: 20%;
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+}
+.plan:nth-child(2)
+{
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.plan-title
+{
+    border-bottom: 1px solid gray;
+   padding: 0.5em;
+   margin-bottom: 1em;
+}
+.plan-title h4
+{
+    text-align: center;
+}
+.plan-title h2{
+    margin: 1em 0;
+    font-size: 2em;
+}
+
+.plan-text{
+    padding: 0.5em;
+}
+.plan-text p
+{
+    margin: 1.5em 0;
+}
+
+.plan a
+{
+    padding:1em;
+    background-color:#ade2df ;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    border-radius: 10px;
+}
+.plan-text p i
+{
+    margin-right: 0.5em;
+}
+.plan-price
+{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.plan-price p
+{
+    margin: 1em 0;
+}
+.expand
+{
+    background-color: #ade2df;
+    border-top-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    gap: 1em;
+}
+.expand h4
+
+{
+    text-align: center;
+}
+.expand-text
+{
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+.expand a
+{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.expand p
+{
+    margin: 0.5em;
+}
+.expand-checks
+{
+    flex-basis: 64.5%;
+}
+.expand a
+{
+    justify-self:flex-end;
+    padding: 1em;
+    border-radius: 10px;
+    text-align: center;
+}
+.Get-Started{
+    background-color: #ade2df;
+}
+.Get-Started .container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2em;
+    padding: 2em;
+    
+}
+.Get-Started h2
+{
+        font-size: 3em;
+}
+footer
+{
+    padding: 1em;
+display: flex;
+justify-content: space-between;
+}
+.footer-icons
+{
+    display: flex;
+    gap: 1em;
+}
